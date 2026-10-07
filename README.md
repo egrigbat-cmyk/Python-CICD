@@ -1,6 +1,6 @@
 # Python CI/CD
 
-A simple FastAPI application demonstrating automated testing and Docker-based CI/CD with GitHub Actions.
+A simple FastAPI application showing automated testing and Docker-based CI/CD with GitHub Actions.
 
 ## Overview
 
