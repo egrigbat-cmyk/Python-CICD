@@ -57,6 +57,3 @@ The GitHub Actions workflow:
 5. Authenticates to AWS using OIDC.
 6. Pushes the Docker image to Amazon ECR.
 
-Current stage: Automated testing, Docker builds, and image publishing to Amazon ECR.
-
-Next stage: Deploy the container to Amazon ECS Fargate and configure the service to run the application.
