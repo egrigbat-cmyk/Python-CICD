@@ -38,7 +38,7 @@ jobs:
 
   publish:
     name: Push image to Amazon ECR
-    needs: [test, docker]
+    needs: [tests, docker]
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
 
