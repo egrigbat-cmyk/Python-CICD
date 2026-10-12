@@ -24,7 +24,7 @@ Tech Stack
 
 ### Health Check
 
-'''http
+```http
 
 GET /health
 
@@ -44,6 +44,7 @@ Response:
   "application": "Deployment Health API",
   "version": "1.0.0"
 }
+```
 
 ## CI/CD Pipeline
 
